@@ -39,7 +39,7 @@ const Testimonials = () => {
     
     return (
         <div>
-            <div className="p-6">
+            <div className=" p-6 bg-gradient-to-r from-orange-500 to-yellow-400 py-12">
             <h2 className="text-3xl font-bold text-center mb-6">Client Testimonials</h2>
 
                 
@@ -47,7 +47,7 @@ const Testimonials = () => {
                     <img src={testimonials[index].image}  className="w-auto h-40 rounded-md" />
                     <div className='flex-col'>
                         <h3 className="mt-3 text-xl font-semibold">{testimonials[index].name}</h3>
-                        <p className="text-gray-600 text-sm px-5">{testimonials[index].review}</p>
+                        <p className="text-gray-600 text-sm px-5 ">{testimonials[index].review}</p>
                     </div>
                     
                 </div>
