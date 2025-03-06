@@ -38,7 +38,7 @@ const Testimonials = () => {
         },[]);
     
     return (
-        <div>
+        <div id='testimonials'>
             <div className=" p-6 bg-gradient-to-r from-orange-500 to-yellow-400 py-12">
             <h2 className="text-3xl font-bold text-center mb-6">Client Testimonials</h2>
 
